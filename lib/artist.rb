@@ -1,5 +1,7 @@
 class Artist
 
+  @@songs = []
+
   def initialize(_name)
     @name = _name
     @songs = []

@@ -6,6 +6,7 @@ class Song
 
     @name = name
     @@all << self
+    @artist = nil
   end
 
   attr_accessor :name, :artist

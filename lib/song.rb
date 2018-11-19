@@ -9,6 +9,7 @@ class Song
   end
 
   attr_accessor :name
+  attr_writer :artist
 
   def self.all
     @@all

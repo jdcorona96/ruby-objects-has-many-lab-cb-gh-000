@@ -4,10 +4,9 @@ class Artist
 
   def initialize(_name)
     @name = _name
-    @songs = []
   end
 
-  attr_accessor :name, :songs
+  attr_accessor :name
 
   def add_song(song)
     song.artist = self

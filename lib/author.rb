@@ -1,6 +1,7 @@
 class Author
 
   @@posts = []
+  
   def initialize(_name)
     @name = _name
   end

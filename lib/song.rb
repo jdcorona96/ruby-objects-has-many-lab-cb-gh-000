@@ -8,10 +8,14 @@ class Song
     @@all << self
   end
 
-  attr_accessor :name, :artist
+  attr_accessor :name
 
   def self.all
     @@all
+  end
+
+  def artist_name
+    @artist
   end
 
 

@@ -6,4 +6,6 @@ class Song
   end
 
   attr_accessor :name
+
+  
 end #Song class

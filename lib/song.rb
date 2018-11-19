@@ -8,15 +8,14 @@ class Song
     @@all << self
   end
 
-  attr_accessor :name
-  attr_writer :artist
+  attr_accessor :name, :artist
 
   def self.all
     @@all
   end
 
   def artist_name
-    @artist
+    @artist.name
   end
 
 

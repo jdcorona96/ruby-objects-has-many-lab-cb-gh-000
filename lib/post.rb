@@ -17,4 +17,5 @@ class Post
     unless @author == nil
       @author.name
     end
+  end
 end
